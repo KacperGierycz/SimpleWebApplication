@@ -30,8 +30,8 @@ public class SimpleServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 		System.out.println("Hello from GET method.");
-		PrintWriter writer = response.getWriter();
-		writer.println("<h3>Hello in html</h3>");
+		response.getWriter().println("<h3>Hello in html</h3>"); 
+		
 		//	response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
