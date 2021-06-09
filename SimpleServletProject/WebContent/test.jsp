@@ -10,6 +10,13 @@
 
 <h3>Testing Jsp</h3>
 
+<%!
+public int add (int a, int b){
+return a+b;
+
+}
+%>
+
 <%
 int i=1;
 int j=2;
@@ -20,6 +27,17 @@ k=i+j;
 out.println("Value of k is: " + k);
 
 %>
+
+The value of k is: <%=k %>
+
+
+<%
+k=add(3323, 3444);
+
+%>
+
+The value of k is: <%=k %>
+
 
 </body>
 </html>
