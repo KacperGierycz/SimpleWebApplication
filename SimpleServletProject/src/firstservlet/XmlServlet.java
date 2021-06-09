@@ -29,6 +29,7 @@ public class XmlServlet extends HttpServlet {
 		out.println("Hello! from GET method  "+userName);
 		out.println("User name from session "+(String) session.getAttribute("saveduserName"));
 		out.println("User name from context "+(String) context.getAttribute("saveduserName"));
+		System.out.println("default parameter from XML servlet from config: "+ getServletConfig().getInitParameter("defaultUser"));
 
 		
 	}

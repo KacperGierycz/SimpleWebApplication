@@ -11,7 +11,13 @@
   <servlet>
   <servlet-name>xmlServlet</servlet-name>
   <servlet-class>firstservlet.XmlServlet</servlet-class>
+  <init-param>
+  <param-name>defaultUser</param-name>
+  <param-value>Name From XML</param-value>
+  </init-param>
+  
   </servlet>
+  
   <servlet-mapping>
     <servlet-name>xmlServlet</servlet-name>
 	<url-pattern>/xmlServletpath</url-pattern>
