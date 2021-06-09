@@ -38,6 +38,37 @@ k=add(3323, 3444);
 
 The value of k is: <%=k %>
 
+<%
+
+for(int l=0;l<5;l++){
+%>	
+<!-- 
+	out.println("<br>"+ "l="+ l);
+ -->
+<br> l= <%=l %>
+
+
+<% }%>
+
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
