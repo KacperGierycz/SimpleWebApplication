@@ -8,7 +8,8 @@
 </head>
 <body>
 
-<%@ include file="/HelloWorld.jsp" %>
+<%@ include file="/HelloWorld.jsp
+" %>
 
 <b>The time is: <%=new Date() %></b> 
 
